@@ -1,0 +1,74 @@
+.jobsContainer {
+  background-color: #121212;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  color: #ffffff;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+.search-icon-div {
+  background-color: #202020;
+  width: 32px;
+  height: 34px;
+  padding: 10px;
+  text-align: center;
+  border-width: 0px;
+}
+.search-bar {
+  background-color: transparent;
+  border-width: 0px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.line {
+  border: 2px solid #64748b;
+}
+.row-1 {
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.row-2 {
+  display: none;
+}
+.row {
+  color: #ffffff;
+  font-size: 25px;
+}
+@media (min-width: 578px) {
+  .row-1 {
+    display: none;
+  }
+  .container-2 {
+    margin-left: 25px;
+  }
+  .row-2 {
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
+.packageDetails {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.logoutButton {
+  background-color: #4f46e5;
+  border-radius: 4px;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  height: 40px;
+}
